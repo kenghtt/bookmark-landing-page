@@ -17,7 +17,7 @@ function Header() {
                 />
 
                 <nav className="hidden sm:block">
-                    <ul className="nav__list flex gap-4 px-2">
+                    <ul className="nav__list flex flex gap-4 px-2">
                         <li className="nav__item">Features</li>
                         <li className="nav__item">Pricing</li>
                         <li className="nav__item">Contact</li>
