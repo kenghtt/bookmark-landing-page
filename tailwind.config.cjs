@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     './index.html',
+    './src/components/sections/*.jsx',
     './src/components/*.jsx',
     './src/*.jsx',
   ],
