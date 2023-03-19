@@ -1,13 +1,13 @@
-import { useState } from "react";
+import useStore from "../data/Store";
 import MobileNav from "../MobileNav";
 
 function Header() {
 
-    const [isToggled, setIsToggled] = useState(false);
+    const isToggled = useStore(state => state.isToggled);
+    const setIsToggledToTrue = useStore(state => state.setIsToggledToTrue);
 
-    function toggleMobileNav() {
-        setIsToggled(true);
-        console.log("toggled");
+    const toggleMobileNav = () => {
+        setIsToggledToTrue();
     }
 
     return ( 
@@ -18,10 +18,10 @@ function Header() {
 
                 <nav className="hidden sm:block">
                     <ul className="nav__list flex flex gap-4 px-2">
-                        <li className="nav__item">Features</li>
-                        <li className="nav__item">Pricing</li>
-                        <li className="nav__item">Contact</li>
-                        <li className="nav__item bg-softRed text-white px-4">Login</li>
+                        <li className="nav__item cursor-pointer">Features</li>
+                        <li className="nav__item cursor-pointer">Pricing</li>
+                        <li className="nav__item cursor-pointer">Contact</li>
+                        <li className="nav__item cursor-pointer bg-softRed text-white px-4">Login</li>
                     </ul>
                 </nav>
 
