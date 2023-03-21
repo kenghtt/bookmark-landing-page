@@ -1,18 +1,19 @@
-import { useState } from "react";
+import useStore from "./data/Store";
 
 function MobileNav() {
-    const [isToggled, setIsToggled] = useState(true);
+    const isToggled = useStore((state) => state.isToggled);
+    const setIsToggledToFalse = useStore((state) => state.setIsToggledToFalse);
 
-    function toggleMobileNav() {
-        console.log("toggled off");
-        setIsToggled(false)
+
+    const toggleMobileNav = () => {
+        setIsToggledToFalse()
     }
 
     return ( 
         <div className="div">
             
-            {isToggled && <article className="w-screen h-screen absolute top-0">
-                <div className="container py-10 px-20 flex opacity-75 flex-col justify-center gap-6 bg-veryDarkBlue">
+            {isToggled && <article className="w-screen h-screen absolute top-0 left-0">
+                <div className="container py-10 px-20 flex opacity-55 flex-col justify-center gap-6 bg-veryDarkBlue">
                     <section className="logo-container flex justify-center">
                         <img src="../images/logo-bookmark.svg" alt="bookmark logo" className="bg-softRed"/>
                         <img src="../images/icon-close.svg" alt="closing icon" className="ml-auto" onClick={toggleMobileNav} />
