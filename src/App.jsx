@@ -5,7 +5,7 @@ import Header from "@layout/HeaderComponents/Header";
 import Main from "@layout/MainContent/MainContent.jsx";
 import Footer from "@layout/FooterComponents/Footer";
 
-// styles
+// styles 
 import "./index.css";
 
 function App() {

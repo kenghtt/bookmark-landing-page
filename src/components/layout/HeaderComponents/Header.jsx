@@ -21,7 +21,7 @@ function Header() {
                         <li className="nav__item cursor-pointer">Features</li>
                         <li className="nav__item cursor-pointer">Pricing</li>
                         <li className="nav__item cursor-pointer">Contact</li>
-                        <li className="nav__item cursor-pointer bg-softRed text-white px-4">Login</li>
+                        <li className="nav__item cursor-pointer bg-softRed text-white px-4 rounded">Login</li>
                     </ul>
                 </nav>
 
