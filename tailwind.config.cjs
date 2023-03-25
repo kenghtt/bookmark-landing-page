@@ -2,9 +2,10 @@
 module.exports = {
   content: [
     './index.html',
-    './src/components/sections/*.jsx',
     './src/components/*.jsx',
-    './src/*.jsx',
+    './src/components/layout/HeaderComponents/*.jsx',
+    './src/components/layout/MainContent/*.jsx',
+    './src/components/layout/FooterComponent/*.jsx',
   ],
   theme: {
     

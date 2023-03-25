@@ -1,5 +1,5 @@
-import useStore from "../data/Store";
-import MobileNav from "../MobileNav";
+import useStore from "@/store/Store";
+import MobileNav from "./MobileNav";
 
 function Header() {
 

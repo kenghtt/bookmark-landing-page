@@ -1,13 +1,12 @@
 import React from "react";
 
 // components
-import Header from "./components/sections/Header";
-import Footer from "./components/sections/Footer";
-import Main from "./components/sections/Main";
+import Header from "@layout/HeaderComponents/Header";
+import Main from "@layout/MainContent/MainContent.jsx";
+import Footer from "@layout/FooterComponents/Footer";
 
 // styles
 import "./index.css";
-
 
 function App() {
 

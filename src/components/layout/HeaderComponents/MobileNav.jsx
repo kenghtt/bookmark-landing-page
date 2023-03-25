@@ -1,4 +1,4 @@
-import useStore from "./data/Store";
+import useStore from "@/store/Store";
 
 function MobileNav() {
     const isToggled = useStore((state) => state.isToggled);
