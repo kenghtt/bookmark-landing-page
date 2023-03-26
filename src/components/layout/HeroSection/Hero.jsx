@@ -1,26 +1,16 @@
+import Summary from "./Summary.jsx";
+import SummaryImage from "./SummaryImage.jsx";
+
 function Hero() {
     return ( 
-        <section className="flex flex-col justify-center align-center w-screen text-center">
-                <picture className="flex justify-center">
-                    <img src="../images/illustration-hero.svg" alt="a tablet featuring bookmarks" />
-                </picture>
-
-                <div className="container flex-col align-center justify-center gap-4 mb-10">
-                    <h1 className="text-veryDarkBlue center text-2xl md:text-3xl">A Simple Bookmark Manager </h1>
-                    <p className="text-grayBlue px-20">
-                        A clean and simple interface to organize
-                        your favourite websites. Open a new browser tab and see
-                        your sites load instantly. Try it for free.
-                    </p>
+        <article className="flex flex-col justify-center align-center w-screen text-center">
+                <div className="container grid items-center grid-rows-2 grid-cols-1 md:grid-cols-2 lg:gap-4">
+                    <SummaryImage/>
+                    <Summary/> 
                 </div>
-
-                <div className="flex justify-center align-center gap-8">
-                    <button className="bg-softBlue text-white cursor-pointer p-5 rounded hover:ring hover:ring-veryDarkBlue">Get it on Chrome</button>
-                    <button className="bg-white cursor-pointer p-5 rounded hover:ring hover:ring-veryDarkBlue">Get it on Firefox</button>
-                </div>
-
-        </section>
-     );
+        </article>
+    );
 }
+
 
 export default Hero;

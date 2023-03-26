@@ -11,7 +11,7 @@ import "./index.css";
 function App() {
 
   return (
-    <div className="App">
+    <div className="App ring-black ring-20">
         <Header/>
         <Main/>
         <Footer/>

@@ -4,7 +4,7 @@ import Hero from '../HeroSection/Hero' ;
 function Main() {
     return ( 
     <main className="main py-10">
-        <div className="container flex flex-col justify-center align-center text-center px-5 gap-20">
+        <div className="container text-center px-5 m-auto">
             <Hero/>
             <Features/>
         </div>

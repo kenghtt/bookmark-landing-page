@@ -6,6 +6,8 @@ module.exports = {
     './src/components/layout/HeaderComponents/*.jsx',
     './src/components/layout/MainContent/*.jsx',
     './src/components/layout/FooterComponent/*.jsx',
+    './src/components/layout/HeroSection/*.jsx',
+    './src/components/layout/FeaturesComponent/*.jsx',
   ],
   theme: {
     

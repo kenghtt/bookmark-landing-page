@@ -1,6 +1,6 @@
 function FeatureLayout({imgURL,altText, sectionTitle, sectionContent}) {
     return ( 
-        <section className="flex">
+        <section className="flex flex-col justify-center items-center gap-5">
             <picture>
                 <img src={`images/${imgURL}`} alt={altText} />
             </picture>
