@@ -7,7 +7,10 @@ module.exports = {
     './src/components/layout/MainContent/*.jsx',
     './src/components/layout/FooterComponent/*.jsx',
     './src/components/layout/HeroSection/*.jsx',
-    './src/components/layout/FeaturesComponent/*.jsx',
+    './src/components/layout/FeaturesComponents/*.jsx',
+    './src/components/layout/FAQ_section/*.jsx',
+    './src/components/layout/ExtensionsSection/*.jsx',
+    './src/components/layout/Form/*.jsx',
   ],
   theme: {
     

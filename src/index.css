@@ -1,8 +1,31 @@
+/* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+
+/* tailwind setup */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .btn {
+    @apply text-white cursor-pointer py-2 px-4 rounded 
+    hover:scale-110 hover:ring focus:ring-veryDarkBlue;
+  }
+  .btn-primary {
+    @apply bg-softBlue;
+  }
+  .feature-titles {
+    @apply cursor-pointer flex justify-center capitalize text-xl opacity-70 
+    border-y-2 border-grayBlue/50;
+  }
+  .feature-titles ::after {
+    display: block;
+    content: "";
+    width: 100%;
+  }
+}
+
+/* overwriting default */
 * {
   font-family: "Rubik", sans-serif;
   font-weight: 400;

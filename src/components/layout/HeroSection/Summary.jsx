@@ -13,8 +13,8 @@ function Summary() {
 
             </div>
             <div className="flex justify-center align-center gap-8">
-                <button className="bg-softBlue text-white cursor-pointer p-5 rounded hover:ring hover:ring-veryDarkBlue">Get it on Chrome</button>
-                <button className="bg-white cursor-pointer p-5 rounded hover:ring hover:ring-veryDarkBlue">Get it on Firefox</button>
+                <button className="btn btn-primary">Get it on Chrome</button>
+                <button className="btn bg-white text-veryDarkBlue">Get it on Firefox</button>
             </div>
         </section>
     );

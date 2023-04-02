@@ -32,14 +32,19 @@ function Features() {
         <article>
             <div className="container flex flex-col gap-10">
                 <section className="col">
-                    <h2> Features </h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab dolor repudiandae alias voluptatum, error ea qui similique labore, sequi esse itaque, vel id consectetur quis deserunt laudantium voluptas veniam? Beatae.</p>
+                    <h2 className='capitalize text-veryDarkBlue text-2xl'> Features </h2>
+                    <p className='text-grayBlue opacity-70'>
+                        Our aim is to make it quick and easy for you 
+                        to access your favourite websites. Your bookmarks
+                        sync between your devices so you can acess them on the go.
+                        
+                    </p>
                 </section>
 
                 <section className="flex flex-col">
-                    <a className="section_title cursor-pointer" onClick={() => setPage(1)}>Simple Bookmarking</a>
-                    <a className="section_title cursor-pointer" onClick={() => setPage(2)}>Speedy Searching</a>
-                    <a className="section_title cursor-pointer" onClick={() => setPage(3)}>Easy Sharing</a>
+                    <a className="feature-titles" onClick={() => setPage(1)}>Simple Bookmarking</a>
+                    <a className="feature-titles" onClick={() => setPage(2)}>Speedy Searching</a>
+                    <a className="feature-titles" onClick={() => setPage(3)}>Easy Sharing</a>
                 </section>
                 
                 {isFirstPage && <Layout
