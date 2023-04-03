@@ -17,11 +17,11 @@ function Header() {
                 />
 
                 <nav className="hidden sm:block">
-                    <ul className="nav__list flex flex gap-4 px-2">
-                        <li className="nav__item cursor-pointer">Features</li>
-                        <li className="nav__item cursor-pointer">Pricing</li>
-                        <li className="nav__item cursor-pointer">Contact</li>
-                        <li className="nav__item cursor-pointer bg-softRed text-white px-4 rounded">Login</li>
+                    <ul className="nav__list flex flex gap-4 px-2 uppercase">
+                        <li className="nav__item cursor-pointer hover:text-softRed">Features</li>
+                        <li className="nav__item cursor-pointer hover:text-softRed">Pricing</li>
+                        <li className="nav__item cursor-pointer hover:text-softRed">Contact</li>
+                        <li className="nav__item cursor-pointer bg-softRed text-white px-4 rounded hover:bg-white hover:text-softRed hover:ring-2 ring-softRed">Login</li>
                     </ul>
                 </nav>
 

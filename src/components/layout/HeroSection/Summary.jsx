@@ -14,7 +14,7 @@ function Summary() {
             </div>
             <div className="flex justify-center align-center gap-8">
                 <button className="btn btn-primary">Get it on Chrome</button>
-                <button className="btn bg-white text-veryDarkBlue">Get it on Firefox</button>
+                <button className="btn bg-grayBlue text-veryDarkBlue">Get it on Firefox</button>
             </div>
         </section>
     );

@@ -20,7 +20,7 @@ module.exports = {
       'softRed':'hsl(0, 94%, 66%)',
       'grayBlue':'hsl(229, 8%, 60%)',
       'veryDarkBlue':'hsl(229, 31%, 21%)',
-      'white':"#FFF"
+      'white':'#FFF'
     },
   },
   },
