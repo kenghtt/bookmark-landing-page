@@ -29,7 +29,7 @@ function Features() {
     }
 
     return ( 
-        <article>
+        <article className="mb-20">
             <div className="container flex flex-col gap-10">
                 <section className="self-center md:w-1/2">
                     <h2 className='capitalize text-veryDarkBlue text-2xl'> Features </h2>

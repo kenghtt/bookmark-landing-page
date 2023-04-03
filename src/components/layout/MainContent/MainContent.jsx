@@ -1,5 +1,6 @@
-import Features from '../FeaturesComponents';
 import Hero from '../HeroSection/Hero' ;
+import Features from '../FeaturesComponents';
+import ExtensionsSection from '../ExtensionsSection';
 
 function Main() {
     return ( 
@@ -7,6 +8,7 @@ function Main() {
         <div className="container text-center px-5 m-auto">
             <Hero/>
             <Features/>
+            <ExtensionsSection/>
         </div>
     </main>
      );
