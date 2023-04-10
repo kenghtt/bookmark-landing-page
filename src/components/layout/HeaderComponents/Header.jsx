@@ -26,12 +26,11 @@ function Header() {
                 </nav>
 
                 <img src="../images/icon-hamburger.svg" alt="hamburger"
-                    className="ml-auto sm:hidden" onClick={toggleMobileNav}
+                    className="ml-auto cursor-pointer myTransition ml-auto hover:rotate-180 active:rotate-180 sm:hidden" onClick={toggleMobileNav}
                 />
             </div>
-            <div className="container flex">
-                { isToggled && <MobileNav/>  }
-            </div>
+                
+            { isToggled && <MobileNav/>  }
         </header>
     );
 }
