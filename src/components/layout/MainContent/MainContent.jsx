@@ -1,6 +1,7 @@
 import Hero from '../HeroSection/Hero' ;
 import Features from '../FeaturesComponents';
 import ExtensionsSection from '../ExtensionsSection';
+import FAQLayout from "@layout/FAQSection/FAQLayout.jsx";
 
 function Main() {
     return ( 
@@ -9,6 +10,7 @@ function Main() {
             <Hero/>
             <Features/>
             <ExtensionsSection/>
+            <FAQLayout/>
         </div>
     </main>
      );
