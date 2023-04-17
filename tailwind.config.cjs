@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     './index.html',
+    "./src/**/*.{js,ts,jsx,tsx}",
     './src/components/*.jsx',
     './src/components/layout/HeaderComponents/*.jsx',
     './src/components/layout/MainContent/*.jsx',
@@ -11,9 +12,10 @@ module.exports = {
     './src/components/layout/FAQ_section/*.jsx',
     './src/components/layout/ExtensionsSection/*.jsx',
     './src/components/layout/Form/*.jsx',
+    './src/components/layout/FAQ_section/*.jsx'
   ],
   theme: {
-    
+
     extend: {
       colors: {
       'softBlue':'hsl(231, 69%, 60%)',
