@@ -31,7 +31,7 @@ function ContactUsForm() {
                     <form className='grid sm:grid-rows-2  md:flex md:flex-row md:h-[100%] justify-center'>
                         <div className="grid grid-rows-2 relative self-center md:mr-3">
                             <input type="email"
-                                   className={`py-2 pl-3 pr-[50px] border-2 border-white ${rounded} ${emailBorder}`}
+                                   className={`py-2 pl-3 pr-[50px] border-2  ${rounded} ${emailBorder}`}
                                    id="lname" name="lname" placeholder="Enter your email address"/>
 
                             {
