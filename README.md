@@ -33,12 +33,12 @@ Users should be able to:
 
 Desktop: 
 
-![Desktop screenshot](/design/Screenshot_desktop.png)
+![Desktop screenshot](./public/design/Screenshot_desktop.png)
 
 
 Mobile: 
 
-![Mobile screenshot](/design/Screenshot_mobile.png)
+![Mobile screenshot](./public/design/Screenshot_mobile.png)
 
 ### Links
 
