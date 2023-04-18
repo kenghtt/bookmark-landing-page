@@ -32,12 +32,18 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Desktop: 
 
+![Desktop screenshot](./Screenshot_desktop.png)
+
+
+Mobile: 
+
+![Mobile screenshot](./Screenshot_mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [OurSolution](https://www.frontendmentor.io/solutions/bookmark-landing-page-made-with-react-tailwind-collab-with-kenghtt-jZGJlBrxa3)
 - Live Site URL: [ourLiveSite](https://bookmark-kudos.netlify.app)
 
 ## My process
@@ -88,7 +94,11 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 This is a collaboration between Kenghtt and Purplehippo911.
 
-Purplehippo911:
+**__Kenghtt__**
+- Frontend Mentor - [@kenghtt](https://www.frontendmentor.io/profile/kenghtt)
+- Github - [@kenghtt](https://www.github.com/kenghtt)
+
+**__Purplehippo911:__**
 - Website - [Purplehippo's website](https://purplehipposwebsite.netlify.app)
 - Frontend Mentor - [@redfox](https://www.frontendmentor.io/profile/purplehippo911)
 - Github - [@purplehippo911](https://www.github.com/purplehippo911)
