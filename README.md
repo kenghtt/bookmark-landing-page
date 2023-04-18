@@ -16,7 +16,6 @@ This is a solution to the [Bookmark landing page challenge on Frontend Mentor](h
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -63,32 +62,16 @@ Mobile:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+We learnt basic TailwindCSS which helped us speed up the process of styling a website. I'll continue to use it for bigger applications. I also learnt a react state management library called Zustand, and it was very simple and useful. I mainly used this project to strenghten my React knowledge.
 
 ### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+We're planning on learning Nextjs and then coming together to collab on another frontend mentor challenge with Nextjs.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Tailwind CSS crash course by Tailwind Labs](https://www.youtube.com/playlist?list=PL5f_mz_zU5eXWYDXHUDOLBE0scnuJofO0) - This helped me get up and running with Tailwind CSS. I really liked the simplicity of these videos and I found them very useful.
+
+- [Zustand simple tutorial](https://youtu.be/jLcF0Az1nx8) - This is an amazing tutorial which helped me learn the basics of Zustand or React state management in General. I'd recommend it to anyone still learning this concept, especially because it's easier than Redux.
 
 ## Author
 
@@ -103,7 +86,3 @@ This is a collaboration between Kenghtt and Purplehippo911.
 - Frontend Mentor - [@redfox](https://www.frontendmentor.io/profile/purplehippo911)
 - Github - [@purplehippo911](https://www.github.com/purplehippo911)
 - Twitter - [@muggie](https://www.twitter.com/muggie232)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
