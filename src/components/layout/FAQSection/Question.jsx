@@ -9,7 +9,7 @@ function Question(props) {
                     <div className="flex flex-row  text-left h-3 mb-10 ">
                         <div className="flex-1 justify-start ml-[5%] md:ml-[20%]">
                             <div className="mb-3 border-t-2"></div>
-                            <h4 className="">{props.question}</h4>
+                            <h3 className="">{props.question}</h3>
                         </div>
                         <div className="flex-none justify-end mr-[5%] md:mr-[20%]">
                             <div className="mb-3 border-t-2"></div>
